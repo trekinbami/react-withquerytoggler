@@ -8,7 +8,7 @@ This is a React Higher Order Component (HOC), which lets you toggle values in th
 
 2. Wrap it around your React component (check out `/src/App/App.jsx` for an example)
 
-```
+```javascript
 import withQueryToggler from 'withquerytoggler';
 
 class App extends Component {
@@ -71,7 +71,7 @@ this.props.createQueryValues({
 ```
 
 ##### Adding an Array:
-```
+```javascript
 this.props.createQueryValues({ 
   areas: [
     ['Rotterdam', true], 
