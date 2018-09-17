@@ -55,7 +55,7 @@ Returns the current query parameters.
 ### Examples
 
 ##### Adding a single value:
-```
+```javascript
 this.props.createQueryValues({ 
   radius: '5',
 });
@@ -64,7 +64,7 @@ this.props.createQueryValues({
 ##### Removing a single value:
 Set the value to an empty string to remove it from the url. 
 
-```
+```javascript
 this.props.createQueryValues({ 
   radius: '',
 });
