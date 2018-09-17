@@ -36,19 +36,19 @@ export default withQueryToggler(App)
 
 withQueryToggler provides you with a couple of methods on your props
 
-`clearQueryValues: () => void`
+**`clearQueryValues: () => void`**
 
-Resets all the query parameters in the url. Returns void.
+Resets all the query parameters in the url. Returns void.  
 
-`createQueryValues: (query, options) => Object`
+**`createQueryValues: (query, options) => Object`**
 
 Maps to a nice Object for react-router from `query`. Check the examples below for more information. Second argument is the arrayFormat from [`query-string`](https://www.npmjs.com/package/query-string). Returns an Object.
 
-`handleQueryValues: (query, options) => void`
+**`handleQueryValues: (query, options) => void`**
 
 Stringifies the query and uses React Router's `history.push` to add the values to the url. Use `options` to give an `arrayFormat`
 
-`getParsedQuery: (props) => void`
+**`getParsedQuery: (props) => void`**
 
 Returns the current query parameters.
 
