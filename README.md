@@ -4,12 +4,12 @@ This is a React Higher Order Component (HOC), which lets you toggle values in th
 
 ### How to use
 
-1. `$ npm install withquerytoggler`
+1. `$ npm install react-withquerytoggler`
 
 2. Wrap it around your React component (check out `/src/App/App.jsx` for an example)
 
 ```javascript
-import withQueryToggler from 'withquerytoggler';
+import withQueryToggler from 'react-withquerytoggler';
 
 class App extends Component {
   addValueToUrl = () => {
