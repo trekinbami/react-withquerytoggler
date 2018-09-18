@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import withQueryToggler from '../withQueryToggler/index';
+import withQueryToggler from 'toggle-query';
 
 class App extends Component {
   addToQuery = () => {
