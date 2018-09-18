@@ -1,5 +1,5 @@
 {
-  "name": "withquerytoggler",
+  "name": "react-withquerytoggler",
   "version": "0.0.1",
   "description": "",
   "main": "src/index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trekinbami/withquerytoggler.git"
+    "url": "git+https://github.com/trekinbami/react-withquerytoggler.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/trekinbami/withquerytoggler/issues"
+    "url": "https://github.com/trekinbami/react-withquerytoggler/issues"
   },
-  "homepage": "https://github.com/trekinbami/withquerytoggler#readme",
+  "homepage": "https://github.com/trekinbami/react-withquerytoggler#readme",
   "files": [
     "lib/build.js"
   ],
