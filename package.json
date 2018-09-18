@@ -21,7 +21,9 @@
   "homepage": "https://github.com/trekinbami/withquerytoggler#readme",
   "files": ["index.js"],
   "dependencies": {
-    "query-string": "^6.1.0",
+    "query-string": "^6.1.0"
+  },
+  "peerDependencies": {
     "react": "^16.5.1",
     "react-router-dom": "^4.3.1"
   }
